@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HungryZoom</title>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="project4.css">
+
+</head>
+<body>
+<header class="header">
+    <a href="#" class="logo"><i class="fas fa-shopping-basket"></i>HungryZoom</a>
+    <nav class="navbar">
+        <a href="#home">Home</a>
+        <a href="#features">Features</a>
+        <a href="#products">Products</a>
+        <a href="#categories">Categories</a>
+        <a href="#review">Review</a>
+        <a href="#blogs">Blogs</a>
+        <a href="#teams">Teams</a>
+    </nav>
+    <div class="icons">
+        <div class="fas fa-bars" id="menu-btn"></div>
+        <div class="fas fa-search" id="search-btn"></div>
+        <div class="fas fa-shopping-cart" id="cart-btn"></div>
+        <div class="fas fa-user" id="login-btn"></div>
+    </div>
+
+    <form action="" class="search-form">
+        <input type="search" id="search-box" placeholder="search here...">
+        <label for="search-box" class="fas fa-search"></label>
+    </form>
+    
+    <div class="shopping-cart">
+        <div class="box">
+            <i class="fas fa-trash"></i>
+       <img src="salad.jpg" alt="">
+       <div class="content">
+        <h3>Fruit Salad</h3>
+        <span class="price">$4.00/-</span>
+        <span class="quantity">qty : 1</span>
+       </div>
+        </div>
+         <div class="box">
+       <i class="fas fa-trash"></i>
+       <img src="burger.webp" alt="">
+       <div class="content">
+        <h3>Burger</h3>
+        <span class="price">$5.00</span>
+        <span class="quantity">qty : 1</span>
+       </div>
+        </div>
+         <div class="box">
+       <i class="fas fa-trash"></i>
+       <img src="pizza.webp" alt="">
+       <div class="content">
+        <h3>Pizza</h3>
+        <span class="price">$7.00</span>
+        <span class="quantity">qty : 1</span>
+       </div>
+        </div>
+        <div class="total">Total : $19.69/- </div>
+        <a href="#" class="btn">Checkout</a>
+    </div>
+    <form action="" class="login-form">
+        <h3>Login Now</h3>
+        <input type="email" placeholder="enter your" class="box">
+        <input type="password" placeholder="your password" class="box">
+        <p>Forget your password <a href="#">click here</a></p>
+        <p>Don't have an account <a href="#">create now</a></p>
+        <input type="submit" value="login now" class="btn">
+    </form>
+</header>    
+
+
+<section class="home" id="home">
+<div class="content">
+    <marque><h3>Fresh and <span>Tasty </span>Products for you</h3></marquee>
+    <p>Tasty and delicious food come here to enjoy our best food</p>
+    <a href="#" class="btn">Buy Now</a>
+
+</div>
+</section>
+<section class="features" id="features">
+    <h1 class="heading">Our <span>features</span></h1>
+    <div class="box-container">
+        <div class="box">
+            <img src="tasty.png" alt="" class="Feature-img">
+            <h3>Tasty and Delicious</h3>
+            <p>Delicious food: flavorsome, satisfying, indulgent, comforting, mouthwatering, delightful, appetizing, heavenly, scrumptious, fulfilling.</p>
+            <a href="#" class="btn">read more</a>
+        </div>
+        <div class="box">
+            <img src="del.png" alt="" class="Feature-img">
+            <h3>Fast Delivery</h3>
+            <p>Best facility of this dellivery app</p>
+            <a href="#" class="btn">read more</a>
+        </div>
+        <div class="box">
+            <img src="easy.webp" alt="" class="Feature-img">
+            <h3>Easy Payment</h3>
+            <p>secure and easy payment</p>
+            <a href="#" class="btn">read more</a>
+        </div>
+    </div>
+</section>
+<section class="products" id="products">
+    <h1 class="heading">our<span>products</span></h1>
+    <div class="swiper product-slider">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide box">
+                <img src="break.webp" alt="">
+                <h3>Breakfast</h3>
+                <div class="price">$5.00/- -11.00/-</div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn">Add to cart</a>
+            </div>
+             <div class="swiper-slide box">
+                <img src="lunch2.jpg" alt="">
+                <h3>Lunch</h3>
+                <div class="price">$5.00/- -11.00/-</div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn">Add to cart</a>
+            </div>
+             <div class="swiper-slide box">
+                <img src="snac.jpg" alt="">
+                <h3>Snacks</h3>
+                <div class="price">$5.00/- -11.00/-</div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn">Add to cart</a>
+            </div>
+             <div class="swiper-slide box">
+                <img src="dinner.avif" alt="">
+                <h3>Dinner</h3>
+                <div class="price">$5.00/- -11.00/-</div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn">Add to cart</a>
+            </div>
+        </div>
+    </div>
+     <div class="product-slider">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide box">
+                <img src="break1.jpg" alt="">
+                <h3>Litti Chokha</h3>
+                <div class="price">$5.00/- -11.00/-</div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn">Add to cart</a>
+            </div>
+             <div class="swiper-slide box">
+                <img src="lunch1.jpg" alt="">
+                <h3>Fried Chicken</h3>
+                <div class="price">$5.00/- -11.00/-</div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn">Add to cart</a>
+            </div>
+             <div class="swiper-slide box">
+                <img src="snac1.jpg" alt="">
+                <h3>Samoshes</h3>
+                <div class="price">$5.00/- -11.00/-</div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>  
+                <a href="#" class="btn">Add to cart</a>
+            </div>
+             <div class="swiper-slide box">
+                <img src="dinn1.jpg" alt="">
+                <h3>Bihari Style Mutton Curry</h3>
+                <div class="price">$150.00/- -310.00/-</div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn">Add to cart</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="categories" id="categories">
+    <h1 class="heading">product <span>categories</span></h1>
+    <div class="box-container">
+        <div class="box">
+            <img src="food.jpg" alt="">
+            <h3>Bengali Thali</h3>
+            <p>Upto 45% Off</p>
+            <a href="#" class="btn">Shop Now</a>
+        </div>
+        <div class="box">
+            <img src="fo2.jpg" alt="">
+            <h3>Punjabi thali</h3>
+            <p>Upto 45% Off</p>
+            <a href="#" class="btn">Shop Now</a>
+        </div>
+        <div class="box">
+            <img src="coc1.jpg" alt="">
+            <h3>Cold Drinks</h3>
+            <p>Upto 25% Off</p>
+            <a href="#" class="btn">Shop Now</a>
+        </div>
+        <div class="box">
+            <img src="cof.jpg" alt="">
+            <h3>Cold Coffee</h3>
+            <p>Upto 45% Off</p>
+            <a href="#" class="btn">Shop Now</a>
+        </div>
+    </div>
+</section>
+
+<section class="review" id="review">
+    <h1 class="heading">Customer's <span>Review</span></h1>
+<div class="swiper review-slider">
+    <div class="swiper-wrapper ">
+        <div class="swiper-slide box">
+            <img src="virat.jpg" alt="">
+            <p>Delicious Food</p>
+            <h3>Virat Kohli</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+        </div>
+         <div class="swiper-slide box">
+            <img src="ar.jpg" alt="">
+            <p>Tasty and Delicious Food.</p>
+            <h3>Arshad Waresi</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+        </div>
+         <div class="swiper-slide box">
+            <img src="narendra.jpg" alt="">
+            <p>Awesome! Taste is very good.</p>
+            <h3>Narendra Modi</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+        </div>
+         <div class="swiper-slide box">
+            <img src="ras.jpg" alt="">
+            <p>Food quality is best.</p>
+            <h3>Rashmika Mandana</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+        </div>
+    </div>
+</div>
+</section>
+<section class="blogs" id="blogs">
+    <h1 class="heading">our <span>blogs</span></h1>
+    <div class="box-container">
+        <div class="box">
+            <img src="a.jpg" alt="">
+            <div class="content">
+                <div class="icons">
+                <a href="#"><i class="fas fa-user"></i>by user</a>
+                <a href="#"><i class="fas fa-calender"></i>1st April,2024</a>
+            </div>
+            <h3>Premium</h3>
+            <p>
+"Savor aromatic chicken curry recipes, a symphony of bold flavors."
+</p>
+    <a href="#" class="btn">Read More</a>            
+        </div>
+        </div>
+        <div class="box">
+            <img src="burg.gif" alt="">
+            <div class="content">
+                <div class="icons">
+                <a href="#"><i class="fas fa-user"></i>by user</a>
+                <a href="#"><i class="fas fa-calender"></i>1st April,2024</a>
+            </div>
+            <h3>Burger</h3>
+            <p>"Discover mouthwatering burger recipes for ultimate indulgence in every bite."</p>
+    <a href="#" class="btn">Read More</a>            
+        </div>
+        </div>
+        <div class="box">
+            <a href="https://pay.google.com/about/">
+            <img src="c.jpg" alt="">
+            </a>
+            <div class="content">
+                <div class="icons">
+                <a href="#"><i class="fas fa-user"></i>by user</a>
+                <a href="#"><i class="fas fa-calender"></i>1st April,2024</a>
+            </div>
+            <h3>Panner Butter Masala</h3>
+            <p>"Delight in creamy paneer butter masala, rich with aromatic spices."</p>
+    <a href="#" class="btn">Read More</a>            
+        </div>
+        </div>
+    </div>
+</section>
+<!-- <team section -->
+<section class="team" id="team">
+    <h1 class="heading">Our <span>Team</span></h1>
+    <div class="box-container">
+        <div class="box">
+            <img src="image.jpg" alt="" class="team-image">
+            <h3>Shivam</h3>
+            <span>Html</span>
+            <p>"Crafting digital experiences with code, creativity, and precision."</p>
+            <div class="share">
+                <a href="#" class="fab fa-facebook-f"></a>
+                <a href="#" class="fab fa-twitter"></a>
+                <a href="#" class="fab fa-instagram"></a>
+                <a href="#" class="fab fa-linkedin"></a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="i2.jpg" alt="" class="team-image">
+            <h3>Shashi</h3>
+            <span>Css</span>
+            <p>"Crafting stylish web designs with elegance and expertise."</p>
+            <div class="share">
+                <a href="#" class="fab fa-facebook-f"></a>
+                <a href="#" class="fab fa-twitter"></a>
+                <a href="#" class="fab fa-instagram"></a>
+                <a href="#" class="fab fa-linkedin"></a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="i.jpg" alt="" class="team-image">
+            <h3>Sougata</h3>
+            <span>Css</span>
+            <p>"Empowering dynamic web experiences with expertise, innovation, and collaboration"</p>
+            <div class="share">
+                <a href="#" class="fab fa-facebook-f"></a>
+                <a href="#" class="fab fa-twitter"></a>
+                <a href="#" class="fab fa-instagram"></a>
+                <a href="#" class="fab fa-linkedin"></a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="sayan.jpg" alt="" class="team-image">
+            <h3>Sayan</h3>
+            <span>Html</span>
+            <p>"Empowering dynamic web experiences with expertise, innovation, and collaboration"</p>
+            <div class="share">
+                <a href="#" class="fab fa-facebook-f"></a>
+                <a href="#" class="fab fa-twitter"></a>
+                <a href="#" class="fab fa-instagram"></a>
+                <a href="#" class="fab fa-linkedin"></a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="shaur4ya.jpg" alt="" class="team-image">
+            <h3>Shauryadeep</h3>
+            <span>Script</span>
+            <p>"Empowering dynamic web experiences with expertise, innovation, and collaboration"</p>
+            <div class="share">
+                <a href="#" class="fab fa-facebook-f"></a>
+                <a href="#" class="fab fa-twitter"></a>
+                <a href="#" class="fab fa-instagram"></a>
+                <a href="#" class="fab fa-linkedin"></a>
+            </div>
+        </div>
+    </div>
+</section>
+    <!-- team section -->
+<section class="footer">
+    
+    <div class="box-container">
+        <div class="box">
+            <h3>HungryZoom <i class="fas fa-shopping-basket"></i></h3>
+            <p>"Your convenient, fast, and reliable food delivery app bringing delicious meals straight to your doorstep in no time."</p>
+            <div class="share">
+                <a href="https://www.facebook.com" class="fab fa-facebook-f"></a>
+                 <a href="https://twitter.com/?lang=en" class="fab fa-twitter"></a>
+                  <a href="https://www.instagram.com/" class="fab fa-instagram"></a>
+                   <a href="https://www.linkedin.com/feed/" class="fab fa-linkedin"></a>
+                    <a href="https://www.youtube.com/" class="fab fa-youtube"></a>
+            </div>
+        </div>
+         <div class="box">
+            <h3>Contact Info</h3>
+            <a href="#" class="links"><i class="fas fa-phone"></i>+123-456-7890</a>
+            <a href="#" class="links"><i class="fas fa-phone"></i>+111-456-7890</a>
+            <a href="#" class="links"><i class="fas fa-envelope"></i>hungryzoom@gmail.com</a>
+            <a href="#" class="links"><i class="fas fa-map-market-alt"></i>Solan,India -171403
+            </a>
+         </div>
+         <div class="box">
+            <h3>Quick Links</h3>
+            <a href="#" class="links"><i class="fas fa-arrow-right"></i>Home</a>
+            <a href="" class="links"><i class="fas fa-arrow-right"></i>Features</a>
+            <a href="#" class="links"><i class="fas fa-arrow-right"></i>Products</a>
+            <a href="#" class="links"><i class="fas fa-arrow-right"></i>Categories</a>
+            <a href="#" class="links"><i class="fas fa-arrow-right"></i>Review</a>
+            <a href="#" class="links"><i class="fas fa-arrow-right"></i>Blogs</a>
+         </div>
+         <div class="box">
+            <h3>NewsLatter</h3>
+          <p>Subscribe for Latest Updates</p>
+          <input type="email" class="email" placeholder="your email">
+          <input type="submit" class="btn" value="subscribe">
+          <div class="payments">
+          <a href="https://pay.google.com/about/">
+          <img src="g.png" class="payment-image" width="70px" alt="">
+          </a>
+          <a href="https://www.phonepe.com/">
+            <img src="ph.png" width="70px">
+          </a>
+          <a href="https://www.amazon.in/amazonpay/home?ref_=apay_logo_APayDashboard">
+            <img src="am.jpg" width="70px">
+          </a>
+          <a href="https://www.paypal.com/in/home">
+            <img src="download (1).png" width="70px">
+          </a>
+          </div>
+         </div>
+    </div>
+    <div class="credit">created by <span>HungryZoom Team Member</span> | all rights reserved</div>
+</section>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="project4.js"></script>
+</body>
+</html>
